@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/streamify/static/css/main.8b6b3541.chunk.css",
+    "main.js": "/streamify/static/js/main.d7de5bac.chunk.js",
+    "main.js.map": "/streamify/static/js/main.d7de5bac.chunk.js.map",
+    "runtime-main.js": "/streamify/static/js/runtime-main.1682b074.js",
+    "runtime-main.js.map": "/streamify/static/js/runtime-main.1682b074.js.map",
+    "static/css/2.3f6a4e7d.chunk.css": "/streamify/static/css/2.3f6a4e7d.chunk.css",
+    "static/js/2.83ead1b3.chunk.js": "/streamify/static/js/2.83ead1b3.chunk.js",
+    "static/js/2.83ead1b3.chunk.js.map": "/streamify/static/js/2.83ead1b3.chunk.js.map",
+    "static/js/3.c0eaef2e.chunk.js": "/streamify/static/js/3.c0eaef2e.chunk.js",
+    "static/js/3.c0eaef2e.chunk.js.map": "/streamify/static/js/3.c0eaef2e.chunk.js.map",
+    "index.html": "/streamify/index.html",
+    "static/css/2.3f6a4e7d.chunk.css.map": "/streamify/static/css/2.3f6a4e7d.chunk.css.map",
+    "static/css/main.8b6b3541.chunk.css.map": "/streamify/static/css/main.8b6b3541.chunk.css.map",
+    "static/js/2.83ead1b3.chunk.js.LICENSE.txt": "/streamify/static/js/2.83ead1b3.chunk.js.LICENSE.txt",
+    "static/media/add.4c0ab963.svg": "/streamify/static/media/add.4c0ab963.svg",
+    "static/media/bg.a904b30a.jpg": "/streamify/static/media/bg.a904b30a.jpg",
+    "static/media/delete.172a3d13.png": "/streamify/static/media/delete.172a3d13.png",
+    "static/media/glass.43d0955f.png": "/streamify/static/media/glass.43d0955f.png",
+    "static/media/home.b0189fdb.svg": "/streamify/static/media/home.b0189fdb.svg",
+    "static/media/moon.06661830.png": "/streamify/static/media/moon.06661830.png",
+    "static/media/plus.14100e6f.png": "/streamify/static/media/plus.14100e6f.png",
+    "static/media/search.d3724df4.svg": "/streamify/static/media/search.d3724df4.svg",
+    "static/media/settings.f7b10356.png": "/streamify/static/media/settings.f7b10356.png",
+    "static/media/star.c5f087fe.png": "/streamify/static/media/star.c5f087fe.png",
+    "static/media/user.8cab7b59.svg": "/streamify/static/media/user.8cab7b59.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1682b074.js",
+    "static/css/2.3f6a4e7d.chunk.css",
+    "static/js/2.83ead1b3.chunk.js",
+    "static/css/main.8b6b3541.chunk.css",
+    "static/js/main.d7de5bac.chunk.js"
+  ]
+}
