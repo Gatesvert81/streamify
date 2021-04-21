@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/streamify/static/css/main.8b6b3541.chunk.css",
-    "main.js": "/streamify/static/js/main.d7de5bac.chunk.js",
-    "main.js.map": "/streamify/static/js/main.d7de5bac.chunk.js.map",
+    "main.js": "/streamify/static/js/main.c063379b.chunk.js",
+    "main.js.map": "/streamify/static/js/main.c063379b.chunk.js.map",
     "runtime-main.js": "/streamify/static/js/runtime-main.1682b074.js",
     "runtime-main.js.map": "/streamify/static/js/runtime-main.1682b074.js.map",
     "static/css/2.3f6a4e7d.chunk.css": "/streamify/static/css/2.3f6a4e7d.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.3f6a4e7d.chunk.css",
     "static/js/2.83ead1b3.chunk.js",
     "static/css/main.8b6b3541.chunk.css",
-    "static/js/main.d7de5bac.chunk.js"
+    "static/js/main.c063379b.chunk.js"
   ]
 }
