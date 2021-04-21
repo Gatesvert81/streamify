@@ -18,7 +18,7 @@ const LandWrapper = styled(Wrapper)`
         flex-direction: column;
         justify-content: center;
         /* align-items: center; */
-        width: 40vw;
+        /* width: 40vw; */
         height: 50vh;
         /* backdrop-filter: blur(4px); */
     }
@@ -30,15 +30,16 @@ const LandWrapper = styled(Wrapper)`
         flex-direction: row;
         justify-content: space-between;
         padding: 3vh 5vw;
-        color: ${props => props.theme.primaryColor}
+        background: ${ props => `linear-gradient(180deg, ${props.theme.main} 0%, transparent 100% )`};
+        color: ${props => props.theme.textColor}
     }
 
     &.land-footer{
         display: flex;
         justify-content: space-between;
-        padding: 3vh 5vw 3vh;
+        /* padding: 3vh 5vw 3vh;
         backdrop-filter: blur(5px);
-        color: ${props => props.theme.primaryColor}
+        color: ${props => props.theme.textColor} */
     }
 `
 

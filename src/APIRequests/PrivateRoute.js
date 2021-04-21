@@ -4,13 +4,13 @@ import { isLoaded, isEmpty } from "react-redux-firebase";
 import { useSelector } from "react-redux";
 
 
-const PrivateRoute = ({ children, ...remainingProps }) => {
+const PrivateRoute = ({ children, ...rest }) => {
 
   const auth = useSelector(state => state.firebase.auth);
   
   return (
     <Route
-      {...remainingProps}
+      {...rest}
       render={({ location }) =>
         isLoaded(auth) && !isEmpty(auth) ? (
           children

@@ -12,7 +12,9 @@ import { ReactReduxFirebaseProvider } from "react-redux-firebase";
 import { createFirestoreInstance } from "redux-firestore";
 import { rootReducer } from "./Redux/reducers";
 import { BrowserRouter } from "react-router-dom";
-import firebaseConfig from  './Redux/firebase'
+import firebaseConfig from './Redux/firebase'
+import Context from './APIRequests/Context';
+
 
 
 const rrfConfig = {
@@ -39,7 +41,9 @@ ReactDOM.render(
     <Provider store={store}>
       <ReactReduxFirebaseProvider {...rrfProps}>
         <BrowserRouter>
-          <App />
+          <Context>
+            <App />
+          </Context>
         </BrowserRouter>
       </ReactReduxFirebaseProvider>
     </Provider>

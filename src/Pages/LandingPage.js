@@ -9,7 +9,7 @@ function LandingPage() {
         <LandWrapper className="landing-page">
             <LandNav />
             <LandFooter />
-        </LandWrapper>
+        </LandWrapper> 
     )
 }
 

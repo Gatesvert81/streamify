@@ -13,24 +13,30 @@ function Streamify() {
 
     return (
         <Router>
-        <Wrapper>
-            <HomeNav />
-            <Switch>
-                <PrivateRoute path={`/streamify/home`}>
-                    <HomePage />
-                </PrivateRoute>
-                <PrivateRoute path={`/streamify/search`} >
-                    <SearchPage />
-                </PrivateRoute>
-                <PrivateRoute path={`/streamify/mystuff`} >
-                    <MyStuffPage />
-                </PrivateRoute>
-                <PrivateRoute path={`/streamify/profile`} >
-                    <ProfilePage />
-                </PrivateRoute>
-                <PrivateRoute path={`/streamify/movie`} exact component={MoviePage} />
-            </Switch>
-        </Wrapper>
+            <Wrapper className="streamify">
+                {/* <HomeNav /> */}
+                <Switch>
+                    <PrivateRoute path={`/streamify/home`}>
+                        <HomeNav />
+                        <HomePage />
+                    </PrivateRoute>
+                    <PrivateRoute path={`/streamify/search`} >
+                        <HomeNav />
+                        <SearchPage />
+                    </PrivateRoute>
+                    <PrivateRoute path={`/streamify/mystuff`} >
+                        <HomeNav />
+                        <MyStuffPage />
+                    </PrivateRoute>
+                    <PrivateRoute path={`/streamify/profile`} >
+                        <HomeNav />
+                        <ProfilePage />
+                    </PrivateRoute>
+                    <PrivateRoute path={`/streamify/movie`} >
+                        <MoviePage />
+                    </PrivateRoute>
+                </Switch>
+            </Wrapper>
         </Router>
     )
 }

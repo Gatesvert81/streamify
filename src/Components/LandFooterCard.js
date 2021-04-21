@@ -2,14 +2,14 @@ import React from 'react'
 import Card from '../StyledComponents/Card'
 import Wrapper from '../StyledComponents/Wrapper'
 
-function LandFooterCard() {
+function LandFooterCard({children, header }) {
     return (
-        <Card>
-            <Wrapper>
-                About
+        <Card className="land__footer__card" >
+            <Wrapper className="land__footer__card__header"  >
+                {header}
             </Wrapper>
-            <Wrapper>
-                Thats how it is
+            <Wrapper className="land__footer__card__detail" >
+                {children}
             </Wrapper>
         </Card>
     )

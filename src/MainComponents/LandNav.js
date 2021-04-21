@@ -7,13 +7,13 @@ function LandNav() {
 
 
     return (
-        <LandWrapper className="landNav">
+        <LandWrapper className="landNav"> 
             <Wrapper>
                 Streamify
             </Wrapper>
-            <Wrapper>
-                <RegistrationPage name="Sign Up" classname="primary"/>
-                <RegistrationPage name="Sign In" />
+            <Wrapper className="land-nav-btn">
+                <RegistrationPage name="Sign Up" classname="primary primary-margin" sign="Sign Up"/>
+                <RegistrationPage name="Sign In" sign="Sign In"/>
             </Wrapper>
         </LandWrapper>
     )
